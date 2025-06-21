@@ -1,0 +1,35 @@
+body{
+    box-sizing:border-box;
+}
+@media (min-width: 640px) {}
+    .box{
+        width: 100%;
+    }
+        
+/* md */
+@media (min-width: 768px) {
+    .box{
+        width: 50%;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .box{
+        width: 33.33%;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .box{
+        width: 25%;
+    }
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+    .box{
+        width: 20%;
+    }
+} 
