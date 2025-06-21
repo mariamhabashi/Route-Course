@@ -1,0 +1,102 @@
+/* === Responsive (Mobile Menu) === */
+@media (max-width: 768px) {
+    .navbar .fa-bars {
+      display: block; 
+    }
+  
+    .navbar .nav-links {
+      display: none; 
+    }
+  
+    .navbar .nav-links.active { 
+       display: flex; 
+       flex-direction: column;
+       align-items: center;
+    }
+  
+  
+    .navbar .nav-links ul {
+      flex-direction: column; 
+      width: 100%;
+      text-align: center;
+      gap: 0; 
+    }
+  
+    .navbar .nav-links ul li {
+      padding: 10px 0; 
+      width: 100%; 
+    }
+  
+     .navbar .nav-links ul li a {
+        display: block; 
+        padding: 10px 0;
+        border-bottom: none; 
+     }
+     .navbar .nav-links ul li a:hover {
+         background-color: rgba(255, 255, 255, 0.1); 
+         border-bottom: none;
+     }
+     .navbar .nav-links ul li a.active {
+         border-bottom: none; 
+         font-weight: bold; 
+     }
+  
+    .header .content h1 {
+      font-size: 2.5rem; 
+    }
+  
+    #animation {
+      font-size: 1.8rem;
+    }
+
+     /* About section */
+     
+    .about-container {
+      padding: 30px; 
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .left-content,
+    .right-content {
+        flex: 1 1 100%;
+        max-width: 100%; 
+    }
+
+    .left-content {
+        margin-bottom: 35px; 
+    }
+
+    .profile-info {
+        flex-direction: column; 
+        align-items: center;   
+        text-align: center;    
+    }
+
+    .profile-pic img {
+        max-width: 110px; 
+        margin-bottom: 20px; 
+    }
+
+    .right-content .about-title {
+        font-size: 1.9em;
+    }
+    .right-content .about-title::after {
+        width: 50px; 
+    }
+
+    .right-content p {
+        font-size: 0.95rem; 
+    }
+
+    .skills h2 {
+        font-size: 1.3em; 
+        text-align: center; 
+    }
+
+    .skill-label {
+        font-size: 0.85em; 
+    }
+}
