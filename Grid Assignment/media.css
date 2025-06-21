@@ -1,0 +1,579 @@
+@media(min-width:640px){
+    
+}
+@media(min-width:768px){
+    .container{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1.3fr 1.3fr 0.7fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+      "IPHONE IPHONE LEARN LEARN"
+      "OurBrand  IMAC-RETINA IMAC-RETINA POPULAR"
+      "Games  MuchBetter MuchBetter  POPULAR"
+      "Connect Experience More More ";
+    }
+    .IPHONE-6S img{
+        width: 33%;
+    
+    }
+    .iphone-content{
+        width: 50%;
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        color: white;
+    }
+
+    .OurBrand img{
+        width: 100%;
+    }
+
+    .IMAC-RETINA img{
+        width: 45%;
+        margin-top: auto;
+    
+    }
+    .imac-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    }
+    .imac-left .phead{
+        font-family: "Roboto", sans-serif;
+        color: rgb(163, 163, 163);
+        font-weight: light;
+        font-size: 15px;
+        margin-top: 80px;
+        letter-spacing: 2px;
+    }
+    .imac-left .pbody{
+        font-family: "Arvo", serif;
+        color: rgb(43, 43, 43);
+        font-weight: light;
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: left;
+    }
+    .imac-right{
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Arial", sans-serif;
+        color: rgb(145, 145, 145);
+        font-weight: light;
+        font-size: 15px;
+        line-height: 30px;
+        width: 50%;
+        text-align: left;
+    }
+    .imac-right p{
+        width: 80%;
+    }
+    .circle {
+        border-radius: 50%;
+        background-color:  #8166b0;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flag-icon {
+        width: 15px;
+    }
+    .disk-image {
+        width: 200px;
+        height: auto;
+    }
+    .tweetcircle{
+        border-radius: 50%;
+        background-color:  #26bcda56;
+        width: 225px;
+        height: 225px;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .Connect img{
+        width:50px;
+    }
+    
+    .twetcontent{
+        margin-top: 60px;
+        color: white;
+        font-family: "Arvo",serif;
+    }
+    .center-head{
+        margin-left: 130px;
+        margin-top: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #7bc424;
+        font-size: 8px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 65px;
+        font-family:"Roboto", sans-serif;
+        color: white;
+    }
+    .Experience h3{
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: "Arvo",serif;
+        font-weight: lighter;
+    }
+    .More{
+        grid-area: More;
+        align-items: center;
+        background-color: #2c2c2c;
+        display: flex;
+        overflow: hidden;
+        /* padding-right: 5%;
+        padding-left: 5%; */
+        justify-content: center;
+    }
+    .More img{
+        width: 50%;
+        margin-right: auto;
+    }
+}
+@media(min-width:1024px){
+    .container{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1.3fr 1.3fr 0.7fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+      "IPHONE IPHONE LEARN LEARN"
+      "OurBrand  IMAC-RETINA IMAC-RETINA POPULAR"
+      "Games  MuchBetter MuchBetter  POPULAR"
+      "Connect Experience More More ";
+    }
+    .IPHONE-6S img{
+        width: 33%;
+    
+    }
+    .iphone-content{
+        width: 50%;
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        color: white;
+    }
+
+    .OurBrand img{
+        width: 100%;
+    }
+
+    .IMAC-RETINA img{
+        width: 45%;
+        margin-top: auto;
+    
+    }
+    .imac-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    }
+    .imac-left .phead{
+        font-family: "Roboto", sans-serif;
+        color: rgb(163, 163, 163);
+        font-weight: light;
+        font-size: 15px;
+        margin-top: 80px;
+        letter-spacing: 2px;
+    }
+    .imac-left .pbody{
+        font-family: "Arvo", serif;
+        color: rgb(43, 43, 43);
+        font-weight: light;
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: left;
+    }
+    .imac-right{
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Arial", sans-serif;
+        color: rgb(145, 145, 145);
+        font-weight: light;
+        font-size: 15px;
+        line-height: 30px;
+        width: 50%;
+        text-align: left;
+    }
+    .imac-right p{
+        width: 80%;
+    }
+    .circle {
+        border-radius: 50%;
+        background-color:  #8166b0;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flag-icon {
+        width: 15px;
+    }
+    .disk-image {
+        width: 200px;
+        height: auto;
+    }
+    .tweetcircle{
+        border-radius: 50%;
+        background-color:  #26bcda56;
+        width: 225px;
+        height: 225px;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .Connect img{
+        width:50px;
+    }
+    
+    .twetcontent{
+        margin-top: 60px;
+        color: white;
+        font-family: "Arvo",serif;
+    }
+    .center-head{
+        margin-left: 130px;
+        margin-top: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #7bc424;
+        font-size: 8px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 65px;
+        font-family:"Roboto", sans-serif;
+        color: white;
+    }
+    .Experience h3{
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: "Arvo",serif;
+        font-weight: lighter;
+    }
+    .More{
+        grid-area: More;
+        align-items: center;
+        background-color: #2c2c2c;
+        display: flex;
+        overflow: hidden;
+        /* padding-right: 5%;
+        padding-left: 5%; */
+        justify-content: center;
+    }
+    .More img{
+        width: 50%;
+        margin-right: auto;
+    }
+}
+@media(min-width:1536px){
+    .container{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1.3fr 1.3fr 0.7fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+      "IPHONE IPHONE LEARN LEARN"
+      "OurBrand  IMAC-RETINA IMAC-RETINA POPULAR"
+      "Games  MuchBetter MuchBetter  POPULAR"
+      "Connect Experience More More ";
+    }
+    .IPHONE-6S img{
+        width: 33%;
+    
+    }
+    .iphone-content{
+        width: 50%;
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        color: white;
+    }
+
+    .OurBrand img{
+        width: 100%;
+    }
+
+    .IMAC-RETINA img{
+        width: 45%;
+        margin-top: auto;
+    
+    }
+    .imac-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    }
+    .imac-left .phead{
+        font-family: "Roboto", sans-serif;
+        color: rgb(163, 163, 163);
+        font-weight: light;
+        font-size: 15px;
+        margin-top: 80px;
+        letter-spacing: 2px;
+    }
+    .imac-left .pbody{
+        font-family: "Arvo", serif;
+        color: rgb(43, 43, 43);
+        font-weight: light;
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: left;
+    }
+    .imac-right{
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Arial", sans-serif;
+        color: rgb(145, 145, 145);
+        font-weight: light;
+        font-size: 15px;
+        line-height: 30px;
+        width: 50%;
+        text-align: left;
+    }
+    .imac-right p{
+        width: 80%;
+    }
+    .circle {
+        border-radius: 50%;
+        background-color:  #8166b0;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flag-icon {
+        width: 15px;
+    }
+    .disk-image {
+        width: 200px;
+        height: auto;
+    }
+    .tweetcircle{
+        border-radius: 50%;
+        background-color:  #26bcda56;
+        width: 225px;
+        height: 225px;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .Connect img{
+        width:50px;
+    }
+    
+    .twetcontent{
+        margin-top: 60px;
+        color: white;
+        font-family: "Arvo",serif;
+    }
+    .center-head{
+        margin-left: 130px;
+        margin-top: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #7bc424;
+        font-size: 8px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 65px;
+        font-family:"Roboto", sans-serif;
+        color: white;
+    }
+    .Experience h3{
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: "Arvo",serif;
+        font-weight: lighter;
+    }
+    .More{
+        grid-area: More;
+        align-items: center;
+        background-color: #2c2c2c;
+        display: flex;
+        overflow: hidden;
+        /* padding-right: 5%;
+        padding-left: 5%; */
+        justify-content: center;
+    }
+    .More img{
+        width: 50%;
+        margin-right: auto;
+    }
+}
+@media(min-width:px){
+    .container{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1.3fr 1.3fr 0.7fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+      "IPHONE IPHONE LEARN LEARN"
+      "OurBrand  IMAC-RETINA IMAC-RETINA POPULAR"
+      "Games  MuchBetter MuchBetter  POPULAR"
+      "Connect Experience More More ";
+    }
+    .IPHONE-6S img{
+        width: 33%;
+    
+    }
+    .iphone-content{
+        width: 50%;
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        color: white;
+    }
+
+    .OurBrand img{
+        width: 100%;
+    }
+
+    .IMAC-RETINA img{
+        width: 45%;
+        margin-top: auto;
+    
+    }
+    .imac-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+    }
+    .imac-left .phead{
+        font-family: "Roboto", sans-serif;
+        color: rgb(163, 163, 163);
+        font-weight: light;
+        font-size: 15px;
+        margin-top: 80px;
+        letter-spacing: 2px;
+    }
+    .imac-left .pbody{
+        font-family: "Arvo", serif;
+        color: rgb(43, 43, 43);
+        font-weight: light;
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: left;
+    }
+    .imac-right{
+        padding: 20px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Arial", sans-serif;
+        color: rgb(145, 145, 145);
+        font-weight: light;
+        font-size: 15px;
+        line-height: 30px;
+        width: 50%;
+        text-align: left;
+    }
+    .imac-right p{
+        width: 80%;
+    }
+    .circle {
+        border-radius: 50%;
+        background-color:  #8166b0;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flag-icon {
+        width: 15px;
+    }
+    .disk-image {
+        width: 200px;
+        height: auto;
+    }
+    .tweetcircle{
+        border-radius: 50%;
+        background-color:  #26bcda56;
+        width: 225px;
+        height: 225px;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .Connect img{
+        width:50px;
+    }
+    
+    .twetcontent{
+        margin-top: 60px;
+        color: white;
+        font-family: "Arvo",serif;
+    }
+    .center-head{
+        margin-left: 130px;
+        margin-top: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #7bc424;
+        font-size: 8px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 65px;
+        font-family:"Roboto", sans-serif;
+        color: white;
+    }
+    .Experience h3{
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: "Arvo",serif;
+        font-weight: lighter;
+    }
+    .More{
+        grid-area: More;
+        align-items: center;
+        background-color: #2c2c2c;
+        display: flex;
+        overflow: hidden;
+        /* padding-right: 5%;
+        padding-left: 5%; */
+        justify-content: center;
+    }
+    .More img{
+        width: 50%;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr; 
+    /* gap: 20px; */
+    /* padding: 15px; */
+    grid-template-areas:
+        "IPHONE"
+        "LEARN"
+        "OurBrand"
+        "IMAC-RETINA"
+        "POPULAR"
+        "Games"
+        "MuchBetter"
+        "Connect"
+        "Experience"
+        "More"; 
+}
+
+/* First Row */
+.IPHONE-6S{
+   /* padding:20px 20px 0px 20px; */
+   display: flex;
+   line-height: 25px;
+   grid-area: IPHONE;
+   justify-content: center;
+   margin-top: 10px;
+}
+.IPHONE-6S img{
+    width: 100%;
+    box-shadow: 5px rgb(29, 29, 29);
+    overflow: hidden;
+}
+.IPHONE-6S h4{
+    font-family: "Roboto", sans-serif;
+    color: rgb(167, 167, 167);
+    font-weight: light;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.IPHONE-6S p{
+    font-family: "Arvo", serif;
+    color: rgb(43, 43, 43);
+    font-weight: light;
+    font-size: x-large;
+}
+
+.IPHONE-6S h5{
+    font-size: 13px;
+    padding-top: 20px;
+    font-family: "Arial", serif;
+    color: rgb(126, 126, 126);
+    font-weight: lighter;
+}
+
+
+.iphone-content{
+    width: 100%;
+    padding: 20px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+}
+.LEARN-MORE{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    grid-area: LEARN;
+    padding-top: 30px;
+    justify-content: center;
+}
+.LEARN-MORE h4{
+    font-family: "Roboto", sans-serif;
+    color: grey;
+}
+.LEARN-MORE p{
+    font-family: "Arvo", serif;
+    color: rgb(43, 43, 43);
+    font-weight: light;
+    font-size: 40px;
+}
+
+.LEARN-MORE a{
+    font-family: "Arial", serif;
+    color: rgb(30, 158, 180);
+    font-weight: lighter;
+}
+
+/* Second Row */
+.OurBrand{
+    background-color: #f05638;
+    align-items: center;
+    grid-area: OurBrand;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.OurBrand img{
+    width: 80%;
+}
+.OurBrand h4{
+    font-family: "Arvo", serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.OurBrand a{
+    font-family:"Roboto", sans-serif;
+    color: rgb(255, 193, 78);
+    font-weight: light;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.IMAC-RETINA{
+    grid-area: IMAC-RETINA;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+.IMAC-RETINA img{
+    width: 75%;
+    margin-top: auto;
+
+}
+
+.imac-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    margin-left: 60px;
+}
+
+.imac-left .phead{
+    font-family: "Roboto", sans-serif;
+    color: rgb(163, 163, 163);
+    font-weight: light;
+    font-size: 15px;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+.imac-left .pbody{
+    font-family: "Arvo", serif;
+    color: rgb(43, 43, 43);
+    font-weight: light;
+    font-size: 25px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.imac-right{
+    padding: 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Arial", sans-serif;
+    color: rgb(145, 145, 145);
+    font-weight: light;
+    font-size: 15px;
+    line-height: 30px;
+    width: 50%;
+    text-align: left;
+}
+.imac-right a{
+    color: rgb(30, 158, 180);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.imac-right p{
+    width: 80%;
+}
+
+.POPULAR {
+    grid-area: POPULAR;
+    background-color: #8f76bc;
+    text-align: center;
+    padding: 70px 20px; 
+    justify-content: center;
+}
+
+.POPULAR button{
+    margin-top: 30px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    background-color: #ffc80a;
+    border: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color:  #8166b0;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-top, .label-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.label-top h4, .label-bottom h4 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.label-top{
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.425);
+}
+
+.flag-icon {
+    width: 15px;
+}
+
+.disk-image {
+    width: 200px;
+    height: auto;
+}
+
+.icloud-heading {
+    font-family: "Arvo", serif;
+    font-size: 36px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    margin: 20px 0 10px; 
+}
+
+.description {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px; 
+    color: rgb(255, 255, 255);
+    font-weight: 300; 
+    line-height: 1.5;
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+.Games{
+    grid-area: Games;
+    text-align: center;
+    
+}
+.Games img{
+    width: 270px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.Games p{
+    font-family: "Arvo",serif;
+    color: rgb(43, 43, 43);
+    font-weight: 20px;
+    font-size: 30px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.Games a{
+    font-family:"Roboto", sans-serif;
+    color: rgb(30, 158, 180);
+    font-weight: light;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.MuchBetter{
+    grid-area: MuchBetter;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #93b6b7;
+    background-image: url(images/UX.png);
+    background-position: 50% 100%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.top-lefthead{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #fa684f;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 120px;
+    font-family:"Roboto", sans-serif;
+}
+.MuchBetter h3{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Arvo",serif;
+    font-weight: lighter;
+}
+.frontz{
+    width: 80%;
+    margin-top: auto;
+
+}
+
+.Connect{
+    grid-area: Connect;
+    /* display: flex; */
+    background-color: #35cfed;
+    text-align: center;
+    /* padding: 20px 20px;  */
+    justify-content: center;
+}
+.tweetcircle{
+    border-radius: 50%;
+    background-color:  #26bcda56;
+    width: 225px;
+    height: 225px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+.Connect img{
+    width:50px;
+}
+
+.twetcontent{
+    margin-top: 60px;
+    color: white;
+    font-family: "Arvo",serif;
+}
+.twetcontent h3{
+    padding-top: 20px;
+}
+.Experience{
+    grid-area: Experience;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.center-head{
+    margin-left: 130px;
+    margin-top: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #7bc424;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 65px;
+    font-family:"Roboto", sans-serif;
+    color: white;
+}
+.Experience h3{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-family: "Arvo",serif;
+    font-weight: lighter;
+}
+.More{
+    grid-area: More;
+    align-items: center;
+    background-color: #2c2c2c;
+    display: flex;
+    overflow: hidden;
+    /* padding-right: 5%;
+    padding-left: 5%; */
+    justify-content: center;
+}
+.More img{
+    width: 60%;
+    margin-right: auto;
+}
+.More h3{
+    margin-right: auto;
+    font-family: "Arvo",serif;
+    line-height: 29px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 20px;
+}
