@@ -1,0 +1,116 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.intro {
+    width:100%;
+    height: 97vh;
+    object-fit: cover; 
+    filter: blur(2.5px);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27170bd0;
+    opacity: 0.7;
+    padding: 10px 20px;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.brandname {
+    margin-top: 13px;
+    font-weight: bold;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:  2px 2px 4px rgba(58, 35, 10, 0.7);   
+    text-align: center;
+    color: white;
+    box-shadow: #27170bd0;
+    font-weight: 400;
+}
+button{
+    padding: 8px 11px;
+    border-radius: 5px;
+    border: 1px solid #27170bd0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #27170bd0;
+}
+.about{
+    padding: 90px;
+    display: flex;
+    color: #27170bd0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.whowe{
+    margin: 30px;
+}
+.whowe ul{
+    list-style: none;
+}
+.whowe ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 15px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.location{
+    background-color: #f5f1d8;
+    padding: 90px;
+    display: flex;
+    color: #27170bd0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    gap: 15px;
+}
+.whowe{
+    margin: 30px;
+}
